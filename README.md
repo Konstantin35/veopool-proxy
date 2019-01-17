@@ -3,7 +3,7 @@
 #Dependencies
 1. nodeJS latest LTS
 2. npm
-3. docker ce
+3. docker ce (if you want to run it as a docker container)
 
 #howto
 If you want to run it as a single instance node application (without docker), simply run:
