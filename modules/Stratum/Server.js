@@ -30,6 +30,10 @@ class Server extends EventEmitter{
         this.verbose = true;
         this.logger.setFlag('c');
     }
+    reconnect(){
+        this.pool = new net.Socket();
+        this.connect();
+    }
 
     connect(){
         this.pool.connect(this.port, this.server, ()=>{
@@ -78,6 +82,7 @@ class Server extends EventEmitter{
         }
         catch (err){
             console.error(err);
+            this.reconnect();
         }
     }
 
