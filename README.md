@@ -22,5 +22,5 @@ you could simply follow these steps:
 
 Then docker will create a cluster named cluster with the current built farmproxy image.
 
-Either way if it runs, the proxy will be reachable via http://<ip-address>:8880
+Either way if it runs, the proxy will be reachable via http://ip-address:8880
 
