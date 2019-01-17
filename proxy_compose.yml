@@ -1,0 +1,10 @@
+version: "3"
+services:
+   proxy:
+      image: farmproxy:latest
+      deploy:
+        replicas: 5
+        restart_policy:
+          condition: any
+      ports:
+        - "8880:8880"
