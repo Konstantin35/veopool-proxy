@@ -1,9 +1,9 @@
 ##GetWork Farm Proxy
 
 #Dependencies
-nodeJS latest LTS
-npm
-docker ce
+1. nodeJS latest LTS
+2. npm
+3. docker ce
 
 #howto
 If you want to run it as a single instance node application (without docker), simply run:
