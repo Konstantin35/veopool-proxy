@@ -8,8 +8,7 @@ docker ce
 #howto
 If you want to run it as a single instance node application (without docker), simply run:
 
-npm i
-npm run startnode
+npm i && npm run startnode
 
 If you want to use it dockerized with a single docker container simply run:
 npm start
