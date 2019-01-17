@@ -1,7 +1,7 @@
 ##GetWork Farm Proxy
 
 #Dependencies
-nodeJS 10.15.0 recommended
+nodeJS latest LTS
 npm
 docker ce
 
