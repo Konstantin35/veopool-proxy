@@ -1,15 +1,14 @@
 ##GetWork Farm Proxy
 
 #Dependencies
-nodeJS 10.15.0 recommended
-npm
-docker ce
+1. nodeJS latest LTS
+2. npm
+3. docker ce (if you want to run it as a docker container)
 
 #howto
 If you want to run it as a single instance node application (without docker), simply run:
 
-npm i
-npm run startnode
+npm i && npm run startnode
 
 If you want to use it dockerized with a single docker container simply run:
 npm start
@@ -23,5 +22,5 @@ you could simply follow these steps:
 
 Then docker will create a cluster named cluster with the current built farmproxy image.
 
-Either way if it runs, the proxy will be reachable via http://<ip-address>:8880
+Either way if it runs, the proxy will be reachable via http://ip-address:8880
 
