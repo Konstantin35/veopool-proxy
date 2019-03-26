@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var app = require('./app');
-var debug = require('debug')('tradinginterface: server');
+// var debug = require('debug')('tradinginterface: server');
 var http = require('http');
 const fs = require('fs');
 
